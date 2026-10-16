@@ -15,6 +15,7 @@ The extraction excludes personal capture stores, model artifacts, operational lo
 - The Blender client refuses redirects for both JSON requests and model uploads. Fifteen real loopback fixture cases cover GET, JSON POST and multipart POST against 301, 302, 303, 307 and 308 responses, asserting that a second origin receives no request or pairing token.
 - The Blender launcher discovers an explicitly configured executable or PATH entry instead of a maintainer-specific installation path.
 - Runtime probe tests use explicit synthetic tokens even when a developer has a real pairing token in their environment.
+- The preview tool's PlayCanvas peer dependency is explicitly pinned and included in the lockfile. GitHub's first clean-install run exposed the previously omitted peer; the release uses the corrected lock.
 - The Unity preparation script uses explicit native argument arrays and one selected Git executable. Its offline fixtures cover paths with spaces, preserving upstream Assets, source/GUID copying, package URI resolution, dependency hashes, destination refusal and a no-write preview.
 
 ## Checks and their limits
