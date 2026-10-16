@@ -16,6 +16,7 @@ The extraction excludes personal capture stores, model artifacts, operational lo
 - The Blender launcher discovers an explicitly configured executable or PATH entry instead of a maintainer-specific installation path.
 - Runtime probe tests use explicit synthetic tokens even when a developer has a real pairing token in their environment.
 - The preview tool's PlayCanvas peer dependency is explicitly pinned and included in the lockfile. GitHub's first clean-install run exposed the previously omitted peer; the release uses the corrected lock.
+- CI reports each test and imposes a 60-second per-test timeout. The full Windows suite receives a longer job budget because its durable SQLite writes can be slower on hosted storage; database durability settings remain unchanged.
 - The Unity preparation script uses explicit native argument arrays and one selected Git executable. Its offline fixtures cover paths with spaces, preserving upstream Assets, source/GUID copying, package URI resolution, dependency hashes, destination refusal and a no-write preview.
 
 ## Checks and their limits
