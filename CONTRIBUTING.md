@@ -1,6 +1,8 @@
 # Contributing
 
-Help make Quest capture and Windows reconstruction installable, reproducible, and understandable. This repository starts with documentation; application source and binary publication are still being prepared.
+Help make Quest capture and Windows reconstruction installable, reproducible, and understandable. The source is available as a developer preview; the first public APK and complete installer are still being prepared.
+
+Fork this repository, create a focused branch, and open a pull request. See [Windows source setup](docs/windows-source-setup.md) for a local bridge and CPU tests, and [Quest source build](docs/quest-source-build.md) for the Unity overlay. The [project milestones](docs/project-status.md) describe useful work and its acceptance checks. A headset is not required for bridge, viewer or documentation contributions.
 
 ## Report a problem
 
@@ -14,12 +16,12 @@ Do not attach whole diagnostic archives. Remove usernames, device serials, home 
 
 Describe one problem, its likely cause, and the observable outcome. Reproduce the failure when possible, change the existing owner, and show before/after evidence. Preserve capture/session identities and original data. A fix must not silently reset a scan, clear application data, bypass permissions, or weaken certificate/signature checks.
 
-Documentation improvements should name the tool/OS versions checked and link primary platform documentation. Software contributions, once source is released, should include focused regression checks and state whether a physical headset was used. Do not claim device acceptance from compilation alone.
+Documentation improvements should name the tool/OS versions checked and link primary platform documentation. Software contributions should include focused regression checks and state whether a physical headset was used. Run the documented Python/browser tests; add new intended files to `PUBLICATION_FILES.json` after checking their contents. Do not claim device acceptance from compilation alone.
 
 Use the [release evidence template](docs/release-evidence-template.md) for build reports. Mark skipped checks as not run. Keep dependency upgrades, behavior changes, and unrelated cleanup separate when it makes review easier.
 
 ## Ownership and licensing
 
-Contribute only material you have the right to share under the applicable license. Original documentation contributions use this repository's MIT license. Third-party application code, SDKs, assets, datasets, and binaries need their own license review before inclusion. Read [NOTICE.md](NOTICE.md).
+Contribute only material you have the right to share under the applicable license. Original code and documentation contributions use this repository's MIT license. Third-party application code, SDKs, assets, datasets, and binaries need their own license review before inclusion. Read [NOTICE.md](NOTICE.md).
 
 This project does not need maintainer signing keys, Meta account credentials, or personal capture stores in a pull request. Report security-sensitive issues using [SECURITY.md](SECURITY.md).

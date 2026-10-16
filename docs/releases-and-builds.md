@@ -1,6 +1,6 @@
 # Maintained builds and update policy
 
-WorldOfEpoch intends to maintain reviewed Quest APKs and a compatible Windows PC bridge built from public, tagged source. This repository is the planned release home. **No APK or bridge package has been published here yet, and application source is not yet available for a public build.**
+WorldOfEpoch intends to maintain reviewed Quest APKs and a compatible Windows PC bridge built from public, tagged source. **The application source is now published as a developer preview. No public APK or Windows installer is available yet.** Start with [Windows source setup](windows-source-setup.md) or [Quest source build](quest-source-build.md).
 
 ## What “updated public builds” means
 
@@ -10,7 +10,7 @@ Preview releases may be useful for focused testing when their limits are explici
 
 There is no scheduled build service, automatic updater, or guaranteed delivery interval today. Use GitHub's repository watch settings for release notifications if desired.
 
-## Before the first software release
+## Before the first installable release
 
 - Extract the original application owners into a clean public source tree. Keep personal capture stores, account settings, logs, machine-specific configuration, and signing material out.
 - Audit third-party licenses and redistribution requirements. Dependency presence in a local prototype does not authorize republishing its source or binaries.
@@ -19,7 +19,7 @@ There is no scheduled build service, automatic updater, or guaranteed delivery i
 - Package and test the Windows bridge setup, pairing, first capture, disconnect/reconnect, and explicit shutdown. A fresh installation must not depend on the maintainer's private files.
 - Complete a review of camera, spatial data, network access, local storage, and photo export/deletion behavior.
 
-The existing prototype's build owner pins Unity `6000.0.66f2`, ARM64 Android, and package `com.questsplat.bridge`. It has separate development and release modes and loads release signing inputs outside source. These are inspected prototype facts, not instructions to build this documentation-only checkout or a promise about future minimum versions.
+The published build owner pins Unity `6000.0.66f2` and ARM64 Android. Contributors provide their own package ID and Meta registration; the maintainer's private identity was removed. Development and release modes use distinct signing inputs supplied outside source. The preparation path and remaining fresh-build checks are recorded in [Quest source build](quest-source-build.md).
 
 ## Required release evidence
 

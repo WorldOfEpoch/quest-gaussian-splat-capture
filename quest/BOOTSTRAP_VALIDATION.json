@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-16T14:13:30.6375266Z",
+  "kind": "synthetic_offline_bootstrap",
+  "script": "scripts/Prepare-QuestUnity.ps1",
+  "scriptSha256": "f7f3b72870364999b2dd69d65adb4ca68f80f77550173e1bacd6f639aa0abaf6",
+  "test": "quest/tests/Test-PrepareQuestUnity.ps1",
+  "testSha256": "4c54dc9ade91708efbe007df62563171c2779432cc1aebb2c801abd1b108449d",
+  "result": {
+    "status": "pass",
+    "checks": 14,
+    "fixture": "synthetic offline Git, SDK, and sample project",
+    "overlayFiles": 30,
+    "details": [
+      "Existing sample Editor subfolder content is preserved.",
+      "Overlay does not create a nested Assets directory.",
+      "Overlay does not create a nested Editor directory.",
+      "Every overlay source and metadata file matches its prepared copy.",
+      "com.arloopa.unitysplats uses an explicit local dependency URI.",
+      "com.arloopa.unitysplats resolves to the prepared dependency.",
+      "com.meta.xr.sdk.platform uses an explicit local dependency URI.",
+      "com.meta.xr.sdk.platform resolves to the prepared dependency.",
+      "Receipt distinguishes preparation from compilation and headset testing.",
+      "Both dependencies receive complete clone, checkout, and revision-verification arguments.",
+      "An existing build workspace is refused without replacement.",
+      "A mismatched SDK hash is rejected before creating output.",
+      "WhatIf creates no build workspace.",
+      "Rejected and WhatIf runs launch no dependency fetch."
+    ]
+  },
+  "exactUpstreamProjectVersion": {
+    "commit": "9105be64da8690b41154baf5629cb82dc2dbe4a7",
+    "path": "ProjectSettings/ProjectVersion.txt",
+    "value": "6000.0.66f2",
+    "verifiedFromCommit": true
+  },
+  "actualNetworkFetchTested": false,
+  "actualSdkPackageResolutionTested": false,
+  "unityLaunched": false,
+  "apkBuilt": false,
+  "headsetTestsRun": false
+}

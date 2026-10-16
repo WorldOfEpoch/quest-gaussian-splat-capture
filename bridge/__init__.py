@@ -1,0 +1,1 @@
+"""Local Quest capture bridge."""

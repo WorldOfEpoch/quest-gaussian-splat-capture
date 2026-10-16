@@ -64,7 +64,7 @@ On the headset, open the app library's **Unknown Sources** section and select th
 
 ## 5. Confirm the complete capture path
 
-An installation success proves only installation. Follow the matching release's Windows bridge setup and pairing guide before capturing. Those distributable bridge instructions are a release blocker and are not available in this documentation-only version.
+An installation success proves only installation. Follow the matching release's Windows bridge setup and pairing guide before capturing. [PC source setup](windows-source-setup.md) is available now; a complete general-user pairing installer and a fresh end-to-end device receipt remain release work.
 
 Verify these separately:
 

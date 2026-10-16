@@ -1,0 +1,10 @@
+{
+  "name": "quest-gaussian-splat-capture-source",
+  "version": "0.1.0-dev.1",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/bridge/*.test.mjs"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "unityEditor": "6000.0.66f2",
+  "metaCameraSample": {
+    "repository": "https://github.com/oculus-samples/Unity-PassthroughCameraApiSamples.git",
+    "commit": "9105be64da8690b41154baf5629cb82dc2dbe4a7",
+    "license": "Oculus SDK License; consult upstream file-level notices"
+  },
+  "unitySplats": {
+    "repository": "https://github.com/arloopa/UnitySplats.git",
+    "commit": "6c0258189a2b124af1282fa9236fd9b6637f1a1a",
+    "license": "MIT; preserve upstream Third Party Notices.md"
+  },
+  "metaPlatformSdk": {
+    "name": "com.meta.xr.sdk.platform",
+    "version": "85.0.0",
+    "archiveSha256": "d93c23b488f32d10b6c0605fa68eba69a1a18b2a1faa6448cb21942cc2a71858",
+    "download": "https://developers.meta.com/horizon/downloads/package/meta-xr-platform-sdk/",
+    "license": "Meta Platforms Technologies SDK License Agreement",
+    "provisioning": "Contributor obtains the SDK under its own terms; archive is not bundled"
+  },
+  "notes": "The package manifest and lock preserve the prototype's dependency versions. Dependencies are separate software, not first-party source. New versions require a reviewed compatibility change."
+}

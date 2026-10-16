@@ -1,9 +1,11 @@
 # Licensing and dependency notice
 
-The MIT license in this repository covers its original documentation and contribution templates. This documentation-only release does not include the Quest application's source, a PC bridge, APKs, SDK packages, vendor source, reconstruction tools, or capture datasets. It does not relicense any third-party component.
+The repository's MIT license covers WorldOfEpoch's original application source, tools, tests, documentation and contribution templates. This source preview includes the PC bridge, Quest source overlay, Blender integration and CPU test fixtures. It does not relicense any third-party component.
 
-The existing prototype uses Unity and Android tooling, Meta camera/platform components, a Gaussian renderer, glTF loading, browser rendering libraries, and separate PC reconstruction software. Some are open source; others have separate platform or SDK terms. The original dependency ledger records mixed licensing, so copying the private working directory wholesale is not an acceptable public release method.
+Two browser runtime modules are included under their original MIT licenses in `bridge/static/vendor/`, with the accompanying license files. The Gaussian renderer includes local SH3 support changes; retain both its upstream notice and the recorded modification provenance. Exact versions and digests are in [the dependency inventory](docs/public-dependencies.md).
 
-Before application source or binaries are published, the maintainer must provide a component inventory with exact versions, origin links, license notices, redistribution decisions, and build-time/runtime dependencies. Review the actual version's license, including transitive and bundled components. A license for one sample file does not license an entire SDK.
+Unity, Meta SDKs and samples, the Unity Gaussian renderer, Android tools, Python/npm packages and reconstruction tools are obtained separately. Their manifests record versions and origins; their licenses remain applicable. Optional mesh tools include copyleft components. Do not assume that the project's MIT license permits repackaging every dependency into one binary.
 
-Meta, Quest, Horizon OS, Android, Unity, and other product names identify compatibility targets or dependencies. This project is not an official product of, or endorsed by, their owners.
+No private capture dataset, APK, development environment, signing material, personal device configuration, Meta account registration, or licensed SDK tree is included. Generated build workspaces and private runtime data stay outside the published source tree.
+
+Meta, Quest, Horizon OS, Android, Unity, Blender and other product names identify compatibility targets or dependencies. This project is not an official product of, or endorsed by, those owners.

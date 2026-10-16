@@ -1,4 +1,4 @@
-# Private inputs and built artifacts must be reviewed outside this docs tree.
+# Private inputs, environments and built artifacts are not source releases.
 *.apk
 *.aab
 *.jks
@@ -16,4 +16,21 @@ pending-room.json
 build/
 outputs/
 captures/
-vendor/
+/vendor/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+dist/
+node_modules/
+Library/
+Temp/
+Logs/
+obj/
+UserSettings/
+*.sqlite3
+*.sqlite3-*
+*.token
+*.crt
+*.cer

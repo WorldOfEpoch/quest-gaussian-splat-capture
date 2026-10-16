@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-16T14:11:29.8866852Z",
+  "kind": "reference_assembly_compilation",
+  "unityEditorVersion": "6000.0.66f2",
+  "compiler": "Unity bundled Roslyn",
+  "referenceSource": "Existing pinned prototype dependency assemblies",
+  "languageVersion": "9.0",
+  "sourceLineEndings": "LF",
+  "changesChecked": [
+    "Contributor app/package identity configuration with entitlement retained",
+    "Authenticated bridge requests disable redirects in the shared request configuration helper"
+  ],
+  "checks": [
+    {
+      "configuration": "Editor",
+      "sourceFiles": 13,
+      "referenceAssemblies": 379,
+      "exitCode": 0,
+      "errorCount": 0,
+      "warnings": [
+        {
+          "code": "CS0169",
+          "count": 1
+        },
+        {
+          "code": "CS0414",
+          "count": 1
+        },
+        {
+          "code": "CS0618",
+          "count": 12
+        },
+        {
+          "code": "CS0649",
+          "count": 54
+        }
+      ]
+    },
+    {
+      "configuration": "Android",
+      "sourceFiles": 8,
+      "referenceAssemblies": 367,
+      "exitCode": 0,
+      "errorCount": 0,
+      "warnings": [
+        {
+          "code": "CS0414",
+          "count": 1
+        },
+        {
+          "code": "CS0618",
+          "count": 4
+        },
+        {
+          "code": "CS0649",
+          "count": 54
+        }
+      ]
+    }
+  ],
+  "sourceHashes": [
+    {
+      "path": "Assets/Editor/QuestBatchBuild.cs",
+      "sha256": "498b791061792bfe121a9399a49eca9c2996a6c3981b27d57dcfc2b20ab15241"
+    },
+    {
+      "path": "Assets/Editor/QuestHudPlacementChecks.cs",
+      "sha256": "496d3fc5f34198590c6b08b21fa40315ba3adeadacccc6b57b72408424e561dc"
+    },
+    {
+      "path": "Assets/Editor/QuestMetadataSerializationChecks.cs",
+      "sha256": "8f836cecceea3c5f0e6173595cf45bf70aafca13722bc1e2685aaa42a14f8f5b"
+    },
+    {
+      "path": "Assets/Editor/QuestPreviewQualityChecks.cs",
+      "sha256": "5b40206d69a693fe8733c3f8838db34632354ae393e67aebf7b4859fe448bc2a"
+    },
+    {
+      "path": "Assets/Editor/QuestSceneBuilder.cs",
+      "sha256": "231708bf12b81e7e01afc055e5e68a804faaee0767575fa6fb54fceb8d96ee0f"
+    },
+    {
+      "path": "Assets/Scripts/CaptureTransferCleanup.cs",
+      "sha256": "f5cf59ee1bc467c8abfe487e5257504ad960570a8e5532dccd23cebb23f7bcbc"
+    },
+    {
+      "path": "Assets/Scripts/QuestCaptureController.Anchor.cs",
+      "sha256": "56d58340b8328f7f1be82c37d44977715089735e8245f2d9dae00dda3da76389"
+    },
+    {
+      "path": "Assets/Scripts/QuestCaptureController.cs",
+      "sha256": "f64858880f13651cd49d3d06893bd67e94ebf1fd89b5c78837df945c9a9fce01"
+    },
+    {
+      "path": "Assets/Scripts/QuestCaptureController.Library.cs",
+      "sha256": "e0935e179fab49fff74496f50a5c0acc8f2383be3be5fce2a4af59840d545928"
+    },
+    {
+      "path": "Assets/Scripts/QuestCaptureController.Preview.cs",
+      "sha256": "77b2d42e10ad9c76f174e9a0c6f04cc21a8b45f23e68883264fbf5e8198d81ef"
+    },
+    {
+      "path": "Assets/Scripts/QuestCaptureController.ProjectAreas.cs",
+      "sha256": "7db30b706da4f6b605844233abc8fdd1afa5b33ba3c5d4f1259058271c7d54d4"
+    },
+    {
+      "path": "Assets/Scripts/QuestCaptureController.Projects.cs",
+      "sha256": "667165c87dc5cd4445c4683197ce75612cca5e513de99523d4e1da33c972c2a6"
+    },
+    {
+      "path": "Assets/Scripts/QuestCaptureController.Spatial.cs",
+      "sha256": "d8d1b85f64b4ac4a40bb61474a3fd9d5dba8382deb57553c11e4f5cffc59cec4"
+    }
+  ],
+  "unityEditorLaunched": false,
+  "cleanDependencyResolutionTested": false,
+  "shadersCompiled": false,
+  "androidApkBuilt": false,
+  "headsetTestsRun": false,
+  "note": "This checks C# syntax and referenced API compatibility. It does not establish a clean Unity import, Android packaging, signing, installation, entitlement, capture, redirect runtime behavior, or wearer acceptance."
+}
