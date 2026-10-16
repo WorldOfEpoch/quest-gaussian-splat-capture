@@ -1,0 +1,19 @@
+# Private inputs and built artifacts must be reviewed outside this docs tree.
+*.apk
+*.aab
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.local.json
+bridge.json
+project-profiles.json
+pending-room.json
+.env
+.env.*
+build/
+outputs/
+captures/
+vendor/

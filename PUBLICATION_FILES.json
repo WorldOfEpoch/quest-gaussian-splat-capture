@@ -1,0 +1,15 @@
+[
+  ".github/ISSUE_TEMPLATE/improvement.md",
+  ".github/ISSUE_TEMPLATE/install-or-compatibility.md",
+  ".gitignore",
+  "CONTRIBUTING.md",
+  "LICENSE",
+  "NOTICE.md",
+  "PUBLICATION_FILES.json",
+  "README.md",
+  "SECURITY.md",
+  "docs/project-status.md",
+  "docs/release-evidence-template.md",
+  "docs/releases-and-builds.md",
+  "docs/windows-sideloading.md"
+]
